@@ -15,7 +15,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
       exit();
     }  else{
       // insert data into database
-      $sql="INSERT INTO user_table (name, email, password) VALUES ('$name', '$email', '$password')";
+      $sql="INSERT INTO user_table (name, gmail, password) VALUES ('$name', '$email', '$password')";
     }
 
 //  check if the insert was syccesful
